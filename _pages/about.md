@@ -27,6 +27,7 @@ My research interests lie at the intersection of <strong>statistics</strong> and
     LLM evaluation with fewer labeled samples while maintaining finite-sample validity and provable error control.
   </li>
   <li>
-    Learnable hypothesis testing frameworks based on data, rather than relying on hand-crafted test statistics and pre-specified procedures, to address modern machine learning tasks with statistical guarantees.
+    Learnable hypothesis testing frameworks based on data, rather than relying on hand-crafted test statistics and pre-specified testing procedures, to address modern machine learning tasks with statistical guarantees.
   </li>
 </ul>
+As AI systems are increasingly used in real-world settings, building trustworthy AI is both important and challenging. Traditional machine learning theory provides important foundations, but many of its classical formulations rely on simplified assumptions that do not fully match how modern AI systems are used in practice. This motivates my interest in data-driven statistical methods, which <strong>rely directly on observed data</strong> rather than simplified assumptions about how AI systems behave, and therefore can provide more realistic and reliable guarantees for evaluating and trusting AI systems.
