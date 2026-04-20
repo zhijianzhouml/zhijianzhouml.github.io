@@ -2,10 +2,10 @@
 layout: cv
 permalink: /cv/
 title: CV
-nav: false
+nav: true
 nav_order: 3
-cv_pdf:
-description: For questions or a PDF version of my CV, please send me an email.
+cv_pdf: Zhijian_Zhou_CV.pdf
+description: See an overview of my academic and professional background here, or download a PDF version.
 toc:
   sidebar: left
 ---
