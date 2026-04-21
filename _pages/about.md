@@ -30,4 +30,7 @@ My research interests lie at the intersection of <strong>statistics</strong> and
     End-to-end statistical hypothesis testing frameworks that derive both test statistics and testing procedures from data, while circumventing the need to fit complex AI tasks into restrictive classical hypothesis testing formulations.
   </li>
 </ul>
+
+<div class="clearfix"></div>
+
 As AI systems are increasingly used in real-world settings, building <strong>trustworthy AI</strong> is both important and challenging. Traditional machine learning theory provides important foundations, but many of its classical paradigms rely on <strong>simplified assumptions</strong> that do not fully match how modern AI systems are used in practice. This motivates my interest in data-driven statistical methods, which <strong>rely directly on observed data</strong> rather than simplified assumptions about how AI systems behave, and therefore can provide <strong>more realistic and reliable guarantees</strong> for evaluating and trusting AI systems.
