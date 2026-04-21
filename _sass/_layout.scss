@@ -38,45 +38,10 @@ body.sticky-bottom-footer {
   }
 }
 
-// About page layout
-.about-top {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 2rem;
-  margin-bottom: 2rem;
-}
-
-.about-text {
-  flex: 1 1 auto;
-  min-width: 0;
-}
-
-.about-profile {
-  flex: 0 0 300px;
-  width: 300px;
-}
-
-.about-profile .figure,
-.about-profile figure {
-  margin: 0;
-}
-
-.about-profile img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-@media (max-width: 768px) {
-  .about-top {
-    flex-direction: column;
-  }
-
-  .about-profile {
-    width: 100%;
-    max-width: 320px;
-  }
+.post article p,
+.post article li {
+  text-align: justify;
+  text-align-last: left;
 }
 
 // TODO: redefine content layout.
