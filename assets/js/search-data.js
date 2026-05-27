@@ -351,8 +351,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather.html";
-            },},{id: "news-two-papers-have-been-accepted-to-icml-2026-see-you-in-seoul-korea",
-          title: 'Two papers have been accepted to ICML 2026. See you in Seoul, Korea!...',
+            },},{id: "news-two-papers-have-been-accepted-to-icml-2026-one-on-distribution-closeness-testing-and-the-other-on-two-sample-testing-under-sample-imbalance-see-you-in-seoul-korea",
+          title: 'Two papers have been accepted to ICML 2026: one on distribution closeness testing,...',
+          description: "",
+          section: "News",},{id: "news-one-paper-has-been-accepted-to-jmlr-on-two-sample-testing-with-variance-normalized-mean-embedding-discrepancy",
+          title: 'One paper has been accepted to JMLR on two-sample testing with Variance-Normalized Mean...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
