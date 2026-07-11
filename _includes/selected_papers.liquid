@@ -1,3 +1,7 @@
 <div class="publications">
-  {% bibliography --group_by none --query @*[selected=true]* %}
+  <h3>Methodological Advances in Hypothesis Testing</h3>
+  {% bibliography --group_by none --query @*[selected_section=advances]* %}
+
+  <h3>Hypothesis Testing in Applications</h3>
+  {% bibliography --group_by none --query @*[selected_section=applications]* %}
 </div>
