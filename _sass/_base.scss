@@ -421,7 +421,8 @@ ul.task-list input[type="checkbox"] {
         }
       }
 
-      i::before {
+      i::before,
+      svg.email-icon {
         color: var(--global-text-color);
         transition-property: all 0.2s ease-in-out;
       }
@@ -429,7 +430,8 @@ ul.task-list input[type="checkbox"] {
       &:hover {
         text-decoration: none;
 
-        i::before {
+        i::before,
+        svg.email-icon {
           color: var(--global-theme-color);
         }
       }

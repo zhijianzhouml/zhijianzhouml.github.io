@@ -11,7 +11,11 @@
     {% when 'discord_id' %}
       <a href="https://discord.com/users/{{ social[1] }}" title="Discord"><i class="fa-brands fa-discord"></i></a>
     {% when 'email' %}
-      <a href="mailto:{{ social[1] | encode_email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
+      <a href="mailto:{{ social[1] }}" title="Email" aria-label="Email">
+        <svg class="email-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path fill="currentColor" d="M3 5h18v14H3V5Zm2 2v.5l7 5 7-5V7H5Zm14 10V9.96l-7 5-7-5V17h14Z" />
+        </svg>
+      </a>
     {% when 'facebook_id' %}
       <a href="https://facebook.com/{{ social[1] }}" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
     {% when 'flickr_id' %}

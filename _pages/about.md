@@ -16,7 +16,7 @@ profile:
 announcements:
   enabled: true
   scrollable: true
-  limit: 5
+  limit: 3
 # news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
